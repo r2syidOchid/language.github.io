@@ -87,7 +87,7 @@
 
     <!-- jumbotron-->
     <section class="jumbotron text-center text-white">
-      <img src="img/Desain tanpa judul (1).png" class="rounded-circle img-thumbnail" alt="Japanese club" width="150" />
+      <img src="img/Desain tanpa judul (1).png" data-aos="flip-left" data-aos-duration="700"  class="rounded-circle img-thumbnail" alt="Japanese club" width="150" />
       <h1 class="display-4">LANGUAGE TROOP</h1>
       <p class="lead fs-4">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
       <hr class="my-4" />
@@ -100,13 +100,13 @@
     <section id="about">
       <div class="conteiner">
         <div class="row text-center mb-3">
-          <div class="col"><h2>About US</h2></div>
+          <div class="col" data-aos="fade-down" data-aos-duration="1000"><h2>About Us</h2></div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4"data-aos="fade-up" data-aos-duration="1500">
+          <div class="col-md-4"data-aos="fade-right" data-aos-duration="1500">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sed animi ad est dicta natus ut. Ea cupiditate ipsa labore?</p>
           </div>
-          <div class="col-md-4"data-aos="fade-up" data-aos-duration="1500">
+          <div class="col-md-4"data-aos="fade-left" data-aos-duration="1500">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi laborum ducimus qui minus asperiores, assumenda rerum error numquam perferendis aperiam eligendi vero labore, dolores laudantium?</p>
           </div>
         </div>
@@ -120,11 +120,11 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <div class="h2">OUR Program</div>
+            <div class="h2" data-aos="fade-down" data-aos-duration="1300">Our Program</div>
           </div>
         </div>
         <div class="row justify-content-evenly">
-          <div class="col-md-4 mb-4">
+          <div class="col-md-4 mb-4" data-aos="zoom-in-down" data-aos-duration="1000">
             <div class="card">
               <img src="img/jc logo.png" class="card-img-top" alt="project1" />
               <div class="card-body">
@@ -132,7 +132,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
+          <div class="col-md-4 mb-4" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-delay="100">
             <div class="card">
               <img src="img/jc logo.png" class="card-img-top" alt="project1" />
               <div class="card-body">
@@ -140,7 +140,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
+          <div class="col-md-4 mb-4" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-delay="200">
             <div class="card">
               <img src="img/jc logo.png" class="card-img-top" alt="project1" />
               <div class="card-body">
@@ -148,7 +148,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
+          <div class="col-md-4 mb-4" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-delay="300">
             <div class="card">
               <img src="img/jc logo.png" class="card-img-top" alt="project1" />
               <div class="card-body">
@@ -156,7 +156,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
+          <div class="col-md-4 mb-4" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-delay="400">
             <div class="card">
               <img src="img/jc logo.png" class="card-img-top" alt="project1" />
               <div class="card-body">
@@ -222,7 +222,9 @@
 
      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
      <script>
-       AOS.init();
+       AOS.init({
+        once: false
+      });
      </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
